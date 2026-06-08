@@ -122,7 +122,7 @@ Content in English:
 
 Chinese equivalent:
 
-- Title: "杨博凌"
+- Title: "杨博棱"
 - Subtitle: "探索 AI、大脑与世界模型。"
 - Introduction: "华中科技大学本科生。即将进入中国科学院生物物理研究所攻读博士学位。"
 - Buttons: 查看研究, 项目, 联系方式.

@@ -69,6 +69,18 @@ class StaticSiteTests(unittest.TestCase):
         for text in required:
             self.assertIn(text, self.index)
 
+    def test_correct_chinese_name_is_used(self):
+        self.assertIn("杨博棱", self.script)
+        checked_files = [
+            INDEX,
+            STYLES,
+            SCRIPT,
+            ROOT / "docs/superpowers/specs/2026-06-08-yang-boling-homepage-design.md",
+            ROOT / "docs/superpowers/plans/2026-06-08-yang-boling-homepage.md",
+        ]
+        for path in checked_files:
+            self.assertNotIn("杨博凌", read(path), str(path))
+
     def test_bilingual_and_theme_hooks_exist(self):
         self.assertIn("data-i18n", self.index)
         self.assertIn("data-lang-toggle", self.index)
