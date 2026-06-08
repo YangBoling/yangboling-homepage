@@ -92,7 +92,7 @@ class StaticSiteTests(unittest.TestCase):
             "Yang Boling",
             "Exploring AI, brains, and world models.",
             "Huazhong University of Science and Technology",
-            "Institute of Biophysics",
+            "expected to graduate in 2026",
             "AI Agents",
             "World Models",
             "Computational Neuroscience",

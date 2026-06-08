@@ -58,7 +58,7 @@ class StaticSiteTests(unittest.TestCase):
             "Yang Boling",
             "Exploring AI, brains, and world models.",
             "Huazhong University of Science and Technology",
-            "Institute of Biophysics",
+            "expected to graduate in 2026",
             "AI Agents",
             "World Models",
             "Computational Neuroscience",
@@ -80,6 +80,27 @@ class StaticSiteTests(unittest.TestCase):
         ]
         for path in checked_files:
             self.assertNotIn("杨博凌", read(path), str(path))
+
+    def test_provided_profile_details_are_used(self):
+        expected_index_text = [
+            "1179970319@qq.com",
+            "https://github.com/YangBoling",
+            "Personal Website",
+            "Coming soon.",
+        ]
+        for text in expected_index_text:
+            self.assertIn(text, self.index)
+
+        expected_script_text = [
+            "expected to graduate in 2026",
+            "His interests include AI agents, computational neuroscience, brain-computer interfaces, world models, and brain-inspired intelligent systems.",
+            "华中科技大学未来技术学院本科生，即将于2026年毕业",
+            "研究兴趣包括人工智能体、计算神经科学、脑机接口、世界模型与脑启发智能系统",
+            "昼夜时相与应激诱导抑郁研究",
+            "基于脑图谱与AI的神经环路功能预测设想",
+        ]
+        for text in expected_script_text:
+            self.assertIn(text, self.script)
 
     def test_bilingual_and_theme_hooks_exist(self):
         self.assertIn("data-i18n", self.index)

@@ -117,14 +117,14 @@ Content in English:
 
 - Title: "Yang Boling"
 - Subtitle: "Exploring AI, brains, and world models."
-- Introduction: "Undergraduate student at Huazhong University of Science and Technology. Incoming PhD student at the Institute of Biophysics, Chinese Academy of Sciences."
+- Introduction: "Yang Boling is an undergraduate student at Huazhong University of Science and Technology, expected to graduate in 2026. His interests include AI agents, computational neuroscience, brain-computer interfaces, world models, and brain-inspired intelligent systems."
 - Buttons: View Research, Projects, Contact.
 
 Chinese equivalent:
 
 - Title: "杨博棱"
 - Subtitle: "探索 AI、大脑与世界模型。"
-- Introduction: "华中科技大学本科生。即将进入中国科学院生物物理研究所攻读博士学位。"
+- Introduction: "杨博棱，华中科技大学未来技术学院本科生，即将于2026年毕业。研究兴趣包括人工智能体、计算神经科学、脑机接口、世界模型与脑启发智能系统。"
 - Buttons: 查看研究, 项目, 联系方式.
 
 Visual:
@@ -175,7 +175,7 @@ Display project cards in a framed module:
 - Closed-loop Mouse AI Companion System.
 - Circadian Stress Research.
 - Allen Brain Atlas + AI Prediction.
-- Autonomous Behavioral Platform.
+- Personal Website.
 
 Each project card includes:
 
