@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yang Boling - AI and Computational Neuroscience</title>
+    <meta name="description" content="Yang Boling explores AI agents, brains, world models, computational neuroscience, BCI, neural circuits, and embodied intelligence.">
+    <meta property="og:title" content="Yang Boling - AI and Computational Neuroscience">
+    <meta property="og:description" content="Personal research homepage for Yang Boling, focused on AI, brains, and world models.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#08090d">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Crimson+Pro:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="#hero" aria-label="Yang Boling homepage">
+          <span class="brand-mark" aria-hidden="true">YB</span>
+          <span data-i18n="brand">Yang Boling</span>
+        </a>
+        <div class="nav-links" aria-label="Section navigation">
+          <a href="#research" data-i18n="nav.research">Research</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#notes" data-i18n="nav.notes">Notes</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="control-button" type="button" data-lang-toggle aria-label="Switch language">中文</button>
+          <button class="control-button icon-button" type="button" data-theme-toggle aria-label="Toggle color theme" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v2.4M12 18.6V21M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M3 12h2.4M18.6 12H21M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="hero-section section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy frame-panel">
+          <p class="eyebrow" data-i18n="hero.eyebrow">AI agents / Computational neuroscience</p>
+          <h1 id="hero-title" data-i18n="hero.title">Yang Boling</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">Exploring AI, brains, and world models.</p>
+          <p class="hero-intro" data-i18n="hero.intro">Undergraduate student at Huazhong University of Science and Technology. Incoming PhD student at the Institute of Biophysics, Chinese Academy of Sciences.</p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#research" data-i18n="hero.viewResearch">View Research</a>
+            <a class="button" href="#projects" data-i18n="hero.projects">Projects</a>
+            <a class="button" href="#contact" data-i18n="hero.contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="hero-visual frame-panel" aria-label="Abstract neural network and world model visualization">
+          <svg class="neural-map" viewBox="0 0 520 520" role="img" aria-labelledby="visual-title visual-desc">
+            <title id="visual-title">Neural world model visualization</title>
+            <desc id="visual-desc">A quiet network of connected nodes inside layered research frames.</desc>
+            <defs>
+              <linearGradient id="signal" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#2dd4bf"></stop>
+                <stop offset="100%" stop-color="#60a5fa"></stop>
+              </linearGradient>
+            </defs>
+            <rect x="58" y="58" width="404" height="404" rx="40" class="viz-frame"></rect>
+            <rect x="112" y="112" width="296" height="296" rx="34" class="viz-frame soft"></rect>
+            <path class="viz-link" d="M145 172 L245 120 L360 188 L388 314 L260 402 L128 322 Z"></path>
+            <path class="viz-link faint" d="M245 120 L260 402 M145 172 L388 314 M360 188 L128 322"></path>
+            <circle class="viz-node" cx="145" cy="172" r="10"></circle>
+            <circle class="viz-node alt" cx="245" cy="120" r="9"></circle>
+            <circle class="viz-node" cx="360" cy="188" r="11"></circle>
+            <circle class="viz-node alt" cx="388" cy="314" r="9"></circle>
+            <circle class="viz-node" cx="260" cy="402" r="10"></circle>
+            <circle class="viz-node alt" cx="128" cy="322" r="8"></circle>
+            <circle class="viz-core" cx="260" cy="260" r="34"></circle>
+          </svg>
+          <div class="visual-caption">
+            <span data-i18n="hero.visualLabel">World models as a bridge between agents and neural circuits</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell quick-strip" aria-label="Research focus summary">
+        <div class="metric frame-panel">
+          <span class="metric-value">06</span>
+          <span data-i18n="metrics.interests">research interests</span>
+        </div>
+        <div class="metric frame-panel">
+          <span class="metric-value">04</span>
+          <span data-i18n="metrics.projects">project directions</span>
+        </div>
+        <div class="metric frame-panel">
+          <span class="metric-value">EN / 中文</span>
+          <span data-i18n="metrics.bilingual">bilingual homepage</span>
+        </div>
+      </section>
+
+      <section id="about" class="section-shell split-section" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 id="about-title" data-i18n="about.title">A research path between intelligence and biology.</h2>
+        </div>
+        <div class="frame-panel about-copy">
+          <p data-i18n="about.body1">I am interested in building agents that can perceive, model, and act in closed loops, while learning from the principles of nervous systems.</p>
+          <p data-i18n="about.body2">My current direction connects computational neuroscience, world models, brain-inspired intelligence, BCI, neural circuits, and autonomous behavioral systems.</p>
+        </div>
+      </section>
+
+      <section id="research" class="section-shell" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="research.eyebrow">Research Interests</p>
+          <h2 id="research-title" data-i18n="research.title">Questions I keep returning to.</h2>
+        </div>
+        <div class="bento-grid interests-grid">
+          <article class="interest-item frame-panel span-2">
+            <svg class="line-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 8-8h2a6 6 0 0 1 0 12h-1l-4 4v-4H8a4 4 0 0 1-4-4Z"></path></svg>
+            <h3 data-i18n="interest.agents.title">AI Agents</h3>
+            <p data-i18n="interest.agents.body">Closed-loop systems that plan, adapt, and learn from interaction.</p>
+          </article>
+          <article class="interest-item frame-panel">
+            <svg class="line-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 8v8l8 5 8-5V8l-8-5Zm0 0v18M4 8l8 5 8-5"></path></svg>
+            <h3 data-i18n="interest.worlds.title">World Models</h3>
+            <p data-i18n="interest.worlds.body">Internal simulations for prediction, control, and imagination.</p>
+          </article>
+          <article class="interest-item frame-panel">
+            <svg class="line-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7a3 3 0 0 1 6 0v10a3 3 0 0 1-6 0V7Zm6 1h2a4 4 0 0 1 0 8h-2M6 9H4m2 6H4m16-3h-2"></path></svg>
+            <h3 data-i18n="interest.compNeuro.title">Computational Neuroscience</h3>
+            <p data-i18n="interest.compNeuro.body">Models that connect behavior, neural dynamics, and computation.</p>
+          </article>
+          <article class="interest-item frame-panel">
+            <svg class="line-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h4l2-6 4 12 2-6h4M4 18h16M4 6h16"></path></svg>
+            <h3 data-i18n="interest.bci.title">Brain-Computer Interface</h3>
+            <p data-i18n="interest.bci.body">Interfaces that translate neural signals into adaptive feedback.</p>
+          </article>
+          <article class="interest-item frame-panel span-2">
+            <svg class="line-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10H7V7Zm-3 5h3m10 0h3M12 4v3m0 10v3M9 9l6 6m0-6-6 6"></path></svg>
+            <h3 data-i18n="interest.circuits.title">Neural Circuits</h3>
+            <p data-i18n="interest.circuits.body">Circuit mechanisms behind state, decision, stress, and behavior.</p>
+          </article>
+          <article class="interest-item frame-panel">
+            <svg class="line-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 19V9a4 4 0 0 1 8 0v10M5 19h14M8 13H5m11 0h3M10 6l2-3 2 3"></path></svg>
+            <h3 data-i18n="interest.embodied.title">Embodied Intelligence</h3>
+            <p data-i18n="interest.embodied.body">Intelligence grounded in bodies, environments, and action.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section-shell" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="projects.eyebrow">Projects</p>
+          <h2 id="projects-title" data-i18n="projects.title">Systems and experiments in progress.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card frame-panel">
+            <div class="project-visual visual-loop" aria-hidden="true"></div>
+            <div class="project-body">
+              <div class="tags"><span data-i18n="tag.aiAgents">AI agents</span><span data-i18n="tag.behavior">behavior</span></div>
+              <h3 data-i18n="project.mouse.title">Closed-loop Mouse AI Companion System</h3>
+              <p data-i18n="project.mouse.body">A companion platform for adaptive interaction with animal behavior and closed-loop feedback.</p>
+              <div class="project-links">
+                <span class="mini-link disabled" aria-disabled="true">GitHub</span>
+                <span class="mini-link disabled" aria-disabled="true" data-i18n="project.demo">Demo</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card frame-panel">
+            <div class="project-visual visual-circadian" aria-hidden="true"></div>
+            <div class="project-body">
+              <div class="tags"><span data-i18n="tag.neuroscience">neuroscience</span><span data-i18n="tag.stress">stress</span></div>
+              <h3 data-i18n="project.circadian.title">Circadian Stress Research</h3>
+              <p data-i18n="project.circadian.body">Research notes around rhythms, stress states, and behavioral regulation.</p>
+              <div class="project-links">
+                <span class="mini-link disabled" aria-disabled="true">GitHub</span>
+                <span class="mini-link disabled" aria-disabled="true" data-i18n="project.demo">Demo</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card frame-panel">
+            <div class="project-visual visual-atlas" aria-hidden="true"></div>
+            <div class="project-body">
+              <div class="tags"><span data-i18n="tag.brainAtlas">brain atlas</span><span data-i18n="tag.prediction">prediction</span></div>
+              <h3 data-i18n="project.atlas.title">Allen Brain Atlas + AI Prediction</h3>
+              <p data-i18n="project.atlas.body">Exploring how anatomical data and AI prediction can support circuit-level hypotheses.</p>
+              <div class="project-links">
+                <span class="mini-link disabled" aria-disabled="true">GitHub</span>
+                <span class="mini-link disabled" aria-disabled="true" data-i18n="project.demo">Demo</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card frame-panel">
+            <div class="project-visual visual-platform" aria-hidden="true"></div>
+            <div class="project-body">
+              <div class="tags"><span data-i18n="tag.automation">automation</span><span data-i18n="tag.platform">platform</span></div>
+              <h3 data-i18n="project.platform.title">Autonomous Behavioral Platform</h3>
+              <p data-i18n="project.platform.body">A modular direction for experimental automation, behavioral sensing, and intelligent control.</p>
+              <div class="project-links">
+                <span class="mini-link disabled" aria-disabled="true">GitHub</span>
+                <span class="mini-link disabled" aria-disabled="true" data-i18n="project.demo">Demo</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="notes" class="section-shell split-section" aria-labelledby="notes-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="notes.eyebrow">Publications / Notes</p>
+          <h2 id="notes-title" data-i18n="notes.title">A quiet index for research traces.</h2>
+        </div>
+        <div class="notes-list frame-panel">
+          <article class="note-row">
+            <span class="note-kind" data-i18n="notes.paper.kind">Papers</span>
+            <h3 data-i18n="notes.paper.title">Selected manuscripts and preprints will be listed here.</h3>
+          </article>
+          <article class="note-row">
+            <span class="note-kind" data-i18n="notes.blog.kind">Blog notes</span>
+            <h3 data-i18n="notes.blog.title">Short reflections on agents, brains, and model-based intelligence.</h3>
+          </article>
+          <article class="note-row">
+            <span class="note-kind" data-i18n="notes.reading.kind">Reading notes</span>
+            <h3 data-i18n="notes.reading.title">Paper trails across neuroscience, AI, BCI, and autonomy.</h3>
+          </article>
+          <article class="note-row">
+            <span class="note-kind" data-i18n="notes.ideas.kind">Ongoing ideas</span>
+            <h3 data-i18n="notes.ideas.title">Questions and sketches for future intelligent systems.</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 id="contact-title" data-i18n="contact.title">Open to research conversations and collaborations.</h2>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-link frame-panel" href="mailto:your-email@example.com">
+            <span data-i18n="contact.email">Email</span>
+            <strong>your-email@example.com</strong>
+          </a>
+          <div class="contact-link frame-panel disabled-link" role="note" data-url-placeholder="GitHub profile URL">
+            <span>GitHub</span>
+            <strong>@yang-boling</strong>
+          </div>
+          <div class="contact-link frame-panel disabled-link" role="note" data-url-placeholder="Google Scholar profile URL">
+            <span>Google Scholar</span>
+            <strong data-i18n="contact.scholar">Profile to be added</strong>
+          </div>
+          <div class="contact-link frame-panel disabled-link" role="note" data-url-placeholder="X or Twitter profile URL">
+            <span>X / Twitter</span>
+            <strong data-i18n="contact.x">Optional</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <p data-i18n="footer.text">Built with curiosity and coffee.</p>
+    </footer>
+  </body>
+</html>
